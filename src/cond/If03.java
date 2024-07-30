@@ -13,9 +13,9 @@ public class If03 {
         } else if (age <= 16) {
             System.out.println("중학생");
         } else if (age < 19) {
-            System.out.println("고등학생");
+            System.out.println("고등학생입니다.");
         } else {
-            System.out.println("성인");
+            System.out.println("성인입니다.");
         }
     }
 }
