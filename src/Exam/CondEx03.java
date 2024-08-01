@@ -4,7 +4,7 @@ public class CondEx03 {
 
     public static void main(String[] args) {
 
-        int dollar = 10;
+        int dollar = 15;
 
         if(dollar < 0){
             System.out.println("잘못된 금액입니다.");
