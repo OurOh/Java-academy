@@ -3,8 +3,6 @@ package Loop05;
 public class For02 {
 
     public static void main(String[] args) {
-
-
         int sum = 0;
         int endNum = 3;
 
