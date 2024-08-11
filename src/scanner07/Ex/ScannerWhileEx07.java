@@ -8,7 +8,7 @@ public class ScannerWhileEx07 {
         Scanner input = new Scanner(System.in);
 
         while (true) {
-            System.out.print("이름을 입력하세요 : (종료를 입력하면 종료)");
+            System.out.print("이름을 입력하세요 :  (종료를 입력하면 종료)");
             String name = input.nextLine();
 
             //체크하기
