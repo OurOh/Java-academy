@@ -55,6 +55,16 @@ public class BMI {
         System.out.println("이름 : " + name);
         System.out.println("나이 : " + age);
         System.out.printf("BMI: %.2f\n", BMI);
-
+        //5. BMI에 따른 건강상태 출력
+        if (BMI < 18.5) {
+            System.out.println("저체중입니다.");
+        } else if ( 18.5 <= BMI && BMI < 25.0) {
+            System.out.println("정상체중입니다.");
+        } else if (25.0 <= BMI && BMI < 30.0) {
+            System.out.println("과체중입니다.");
+        } else {
+            System.out.println("비만입니다.");
+        }
+        scanner.close();               //마지막으로 스캐너 해제
     }
 }
