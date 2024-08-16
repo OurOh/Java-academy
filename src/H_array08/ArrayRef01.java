@@ -4,8 +4,8 @@ public class ArrayRef01 {
 
     public static void main(String[] args) {
 
-        int[] students; //배열 변수 선언
-        students = new int[5]; //배열 생성
+        int[] students; //배열 변수를  선언한다.
+        students = new int[5]; //배열 생성 // 0~4, 5개짜리 배열을 만들었다는 뜻.
         //변수 값 대입하기
         students[0] = 90;
         students[1] = 80;
