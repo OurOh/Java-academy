@@ -1,4 +1,4 @@
-package HardExam;
+package Z_HardExam;
 
 import java.util.Scanner;
 
