@@ -3,6 +3,7 @@ package I_method09;
 public class MethodValue02 {
 
     public static void main(String[] args) {
+        // 대원칙 아주 중요.
         int num1 = 5;
         System.out.println("1. changeNumber 호출 전, num1: " + num1); // 5
         changeNumber(num1);
